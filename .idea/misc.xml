@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mila Irva Sari/Downloads/203110032ujian/app/src/main/res/drawable/background.xml" value="0.1635" />
+        <entry key="..\:/Users/Mila Irva Sari/Downloads/203110032ujian/app/src/main/res/drawable/note_color_1.xml" value="0.1635" />
+        <entry key="..\:/Users/Mila Irva Sari/Downloads/203110032ujian/app/src/main/res/drawable/note_color_2.xml" value="0.1635" />
+        <entry key="..\:/Users/Mila Irva Sari/Downloads/203110032ujian/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Mila Irva Sari/Downloads/203110032ujian/app/src/main/res/layout/fragment_create_note.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Mila Irva Sari/Downloads/203110032ujian/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Mila Irva Sari/Downloads/NotesApp-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.239" />
+        <entry key="..\:/Users/Mila Irva Sari/Downloads/NotesApp-master/app/src/main/res/drawable/background.xml" value="0.239" />
+        <entry key="..\:/Users/Mila Irva Sari/Downloads/NotesApp-master/app/src/main/res/drawable/ic_add.xml" value="0.239" />
+        <entry key="..\:/Users/Mila Irva Sari/Downloads/NotesApp-master/app/src/main/res/drawable/ic_back.xml" value="0.239" />
+        <entry key="..\:/Users/Mila Irva Sari/Downloads/NotesApp-master/app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.239" />
+        <entry key="..\:/Users/Mila Irva Sari/Downloads/NotesApp-master/app/src/main/res/drawable/ic_delete.xml" value="0.239" />
+        <entry key="..\:/Users/Mila Irva Sari/Downloads/NotesApp-master/app/src/main/res/drawable/ic_image.xml" value="0.239" />
+        <entry key="..\:/Users/Mila Irva Sari/Downloads/NotesApp-master/app/src/main/res/drawable/ic_launcher_background.xml" value="0.239" />
+        <entry key="..\:/Users/Mila Irva Sari/Downloads/NotesApp-master/app/src/main/res/drawable/ic_link.xml" value="0.239" />
+        <entry key="..\:/Users/Mila Irva Sari/Downloads/NotesApp-master/app/src/main/res/drawable/note_color_1.xml" value="0.239" />
+        <entry key="..\:/Users/Mila Irva Sari/Downloads/NotesApp-master/app/src/main/res/drawable/note_color_2.xml" value="0.1635" />
+        <entry key="..\:/Users/Mila Irva Sari/Downloads/NotesApp-master/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Mila Irva Sari/Downloads/NotesApp-master/app/src/main/res/layout/fragment_create_note.xml" value="0.2" />
+        <entry key="..\:/Users/Mila Irva Sari/Downloads/NotesApp-master/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Mila Irva Sari/Downloads/NotesApp-master/app/src/main/res/layout/fragment_notes_bottom_sheet.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Mila Irva Sari/Downloads/NotesApp-master/app/src/main/res/layout/item_rv_notes.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
