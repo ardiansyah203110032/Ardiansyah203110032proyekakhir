@@ -24,3 +24,5 @@
     </application>
 
 </manifest>
+//pada sebuah kode program tersebuat adalah sebuah inti dari aplikasi yang menampilkan dan menghubungkan koneksi antar view dan juga antar
+//halaman yang sedang berjalan, meemberikan akses, memuat sebuah lokal penyimpnann, desain sebuah halaman layout dan menamplkan sebuah aplikasi yang sedang berjalan.
