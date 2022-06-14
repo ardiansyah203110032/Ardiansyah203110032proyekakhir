@@ -11,7 +11,8 @@
     app:layout_behavior="@string/bottom_sheet_behavior"
     android:background="@color/colorPrimary"
     tools:context="com.codingwithme.Mnurardiansyah.MainActivity">
-
+//pada kode program ini merupakan sebuah kode program yang memiliki sebuah alat untuk terkoneksi kesebuah halaman dan memberikan suatu desain yang vertikal dengan
+//ukuran yang telah diinputkan,
 
 
     <FrameLayout
@@ -34,7 +35,7 @@
         android:padding="@dimen/_5sdp"
         android:gravity="center"
         android:orientation="horizontal">
-
+//pada kode program diatas memberikan ukuran dan bentuk yang horizontal dengan memberikan suatu akses kedalam sebuah activity halaman.
         <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -72,7 +73,7 @@
                 android:layout_gravity="center"
                 app:tint="@color/ColorWhite"/>
         </FrameLayout>
-
+//pada kode program ini menjelaskan bahwa memberkan ukuran pada tampilan dengan warna dan desain baground yang memiliki sebuah koneksi.
 
         <FrameLayout
             android:layout_width="wrap_content"
