@@ -17,6 +17,7 @@ import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.coroutines.launch
 import java.util.*
 import kotlin.collections.ArrayList
+//pada kode program diatas yaitu memuat sebuah informasi koneksi antarmuka pada sebuah program,database dan juga halaman yang ada bebrapa koneksi yang tertera.
 
 class HomeFragment : BaseFragment() {
 
@@ -27,6 +28,7 @@ class HomeFragment : BaseFragment() {
         arguments?.let {
         }
     }
+//pada sebuah kode program tersebut merupakan adapter yang masuk kedalampaket default yang berarti secacar eksplisit memasukkan kedalam sumber folder yang terhubung dan terkoneksi.
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -63,6 +65,7 @@ class HomeFragment : BaseFragment() {
                 recycler_view.adapter = notesAdapter
             }
         }
+//pada sebuah kode program tersebut memuat sebuah nilai maneger yang mana menghubungkan sebuah koneksi database pada semua antar halaman homefragmant ini,
 
         notesAdapter!!.setOnClickListener(onClicked)
 
@@ -94,7 +97,7 @@ class HomeFragment : BaseFragment() {
 
 
     }
-
+//pada sebuah kode program diatas menunjukkan sebuah antar muka yang memiliki sebuah turunan nilai atribut apabila suatu koneksi tersebut saling terhubung.
 
     private val onClicked = object : NotesAdapter.OnItemClickListener{
         override fun onClicked(notesId: Int) {
@@ -123,3 +126,4 @@ class HomeFragment : BaseFragment() {
 
 
 }
+//pada sebuah kode program inilah merupakan suatu tapilan yang menunjukkan sebuah nilai data ang akan mmrnampilkan suatu tampilan dari compile program.
