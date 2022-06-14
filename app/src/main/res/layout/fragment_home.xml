@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/ardy"
     tools:context="com.codingwithme.Mnurardiansyah.MainActivity">
-
+//pada kode program ini memberikan sebuah akses kedalam activty berikutnya.
     <TextView
         android:id="@+id/tv1"
         android:layout_width="match_parent"
@@ -20,7 +20,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
+//pada text view ini memberikan sebuah desain halaman dengan memiliki sebuah title untuk mana fungsi dari sebuah pencatatan harian ini dengan
+//memberikan ukuran pada setiap header layout dan juga warnanya.
     <SearchView
         android:id="@+id/search_view"
         android:layout_width="match_parent"
@@ -34,7 +35,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv1" />
-
+//pada searchview ini memiliki sebuah fungsi untuk pencarian catatan tersebut dengan memiliki dengan desain dengan warna dan ukuran untuk koneksi pencarian tersebut.
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
@@ -76,7 +77,8 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_link"
             app:tint="@color/ColorWhite" />
-
+//pada kode program diatas merupakan sebuah kode program yang memuat sebuah akses image kedalam sebuah halaman denga menggunakan sebuah ukuran pada teks,
+//tipe data dan nilai yang diberikan kemudian desain dan warna bagroud tersebut.
 
     </LinearLayout>
 
@@ -91,7 +93,7 @@
         android:tint="@color/ColorWhite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
-
+//memberikan sebuah warna dan juga ukuran pada layout dan akan terkoneksi apabila nilai tersebut benar.
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -101,7 +103,7 @@
         android:textColor="@color/ColorWhite"
         app:layout_constraintStart_toStartOf="@+id/search_view"
         app:layout_constraintTop_toBottomOf="@+id/search_view" />
-
+//pada program ini merupakan sebuah tampilan halaman dengan menambahkan tulisan dengan ukuran dan juga warna tersebu
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -111,6 +113,6 @@
         android:textColor="@color/ColorWhite"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
-
+//textview ini merupakan suatu tambahan guna menampilkan tulisan yang ada didepan dengan kata motivasi dan menggunakan desain ukuran dan warna.
 
 </androidx.constraintlayout.widget.ConstraintLayout>
