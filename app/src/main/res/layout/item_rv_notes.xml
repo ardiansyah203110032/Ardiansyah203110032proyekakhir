@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_height="wrap_content">
-
+//pada kode program ini memberikan sebuah akses yang mana terkonekti antar sebuat layout vertikal.
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="match_parent"
@@ -15,7 +15,7 @@
         android:layout_margin="@dimen/_5sdp"
         app:cardBackgroundColor="@color/ColorLightBlack"
         android:padding="@dimen/_5sdp">
-
+//memberikan sebuah warna dan juga ukuran pada sebuah desain layoutnya pada halaman.
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
                 android:visibility="gone"
                 app:riv_corner_radius_top_left="@dimen/_10sdp"
                 app:riv_corner_radius_top_right="@dimen/_10sdp"/>
-
+//memberikan suatu nilai atribut agar terkoneksi nilai benar.
             <TextView
                 android:id="@+id/tvTitle"
                 android:layout_width="match_parent"
@@ -58,7 +58,7 @@
                 android:textColorHint="@color/ColorGray"
                 android:textSize="@dimen/_12ssp"
                 android:autoLink="web" />
-
+//pada textview ini memberikan sebuah format pada teks,memberikan ukuran bagroud layout, memberikan sebuah warna dan juga menberikan sebuah akses antarmuka.
             <TextView
                 android:id="@+id/tvDesc"
                 android:layout_width="match_parent"
@@ -91,5 +91,5 @@
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
-
+//pada kode program diatas akan membentuk sebuah desain dengan ukuran,format dan ukuran yang diinputkan kemudian diberikan akses untuk ditampilkan.
 </LinearLayout>
