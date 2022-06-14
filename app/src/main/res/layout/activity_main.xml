@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:background="@drawable/ardy"
     tools:context="com.codingwithme.Mnurardiansyah.MainActivity">
-
+//pada kode program diatas memberikan sebuah akses kedalam layout desain agar terkoneksi kedalam halaman yang telah
+//telah dibuat dengan memberikan sebuah desain halaman dengan warna dan juga posisinya.
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -18,3 +19,5 @@
         android:id="@+id/frame_layout"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+//pada kode program framelayout tersebut merupakan sebuah kode program yang mana terdapat sebuah perintah untuk memberikan
+//warna dan juga button terhadap suatu halaman yang mana akan tampil pada desainnya beserta ukurannya layout agar terkoneksi nantinya antar halaman.
