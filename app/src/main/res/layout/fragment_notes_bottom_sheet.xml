@@ -65,7 +65,7 @@
                 android:layout_width="@dimen/_24sdp"
                 android:layout_height="@dimen/_24sdp"
                 android:background="@drawable/note_color_2"/>
-
+//pada framelayout ini memberikan sebuah akses kedalam sebuah baground aktivity agar bisa terhubung.
             <ImageView
                 android:id="@+id/imgNote2"
                 android:layout_width="@dimen/_16sdp"
@@ -93,7 +93,7 @@
                 android:layout_gravity="center"
                 app:tint="@color/ColorWhite"/>
         </FrameLayout>
-
+//pada kode program diatas merupakan sebuah kode yang memberkan sebuah desain yang mana ukuran dan warna yang telah inputkan.
         <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -141,7 +141,7 @@
                 android:layout_width="@dimen/_24sdp"
                 android:layout_height="@dimen/_24sdp"
                 android:background="@drawable/note_color_7"/>
-
+//pada kode program ini memberikan sebuah akses halaman yang mana akan ditampilkan kedalam sebuah activitas dengan nilai yang telah diinputkan.
             <ImageView
                 android:id="@+id/imgNote7"
                 android:layout_width="@dimen/_16sdp"
@@ -243,7 +243,7 @@
             />
 
     </LinearLayout>
-
+//pada kode program diatas adalah memberikan sebuah nilai pada halaman agar bisa terkoneksi dan terakses dengan memberikan warna dan juga ukurannya.
 
     <LinearLayout
         android:id="@+id/layoutDeleteNote"
@@ -260,7 +260,7 @@
         android:layout_marginBottom="@dimen/_10sdp"
         android:orientation="horizontal">
 
-
+//memberikan sebuah layout dengan menambahkan botton atu tombol dengan memperhatikan nilai dari ukuran dan juga warna.
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -284,7 +284,7 @@
             />
 
     </LinearLayout>
-
+//pada kode program ini memberikan suatu input warna dengan warna pitih dan memperhatikan sebuah ukuran dan desain agar bisa atribut yang  terstruktrut tersebut benar.
 
 
 </LinearLayout>
