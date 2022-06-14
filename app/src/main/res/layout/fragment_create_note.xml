@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:background="@drawable/jk"
     tools:context="com.codingwithme.Mnurardiansyah.MainActivity">
-
+//pada kode tersebut merupakan sebuah kode program yang mana memberikan sebuah alat untuk mendesain suatu halaman dengan menambahkan halaman
+//tersebut memiliki sebuah bagroudlayout dan juga posisinya.
     <ImageView
         android:id="@+id/imgBack"
         android:layout_width="wrap_content"
@@ -18,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:tint="@color/ColorWhite" />
-
+//kode program ini memberikan sebuah desain yang menarik terdapat sebuat koneksi dan juga ukuran pada sebuah image view agar bisa terhubung.
     <ImageView
         android:id="@+id/imgDone"
         android:layout_width="wrap_content"
@@ -30,7 +31,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:tint="@color/ColorWhite" />
-
+//pada kode program image view ini memberikan suatu layout halaman dengan menambahkan ukurang dan juga tombol atau botton.
 
     <EditText
         android:id="@+id/etNoteTitle"
@@ -52,7 +53,8 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imgBack" />
-
+//pada program diatas memiliki sebuah fungsi untuk mengedit sebuah halaman tersebut dan menyimpannya kedalam lokal penyimpnannya, dan juga memberikan suatu tampilan,
+//dengan menambhakan bentuk dan ukuran tulisan, warna pada desain dan koneksi pada setiap bottonyaa.
     <TextView
         android:id="@+id/tvDateTime"
         android:layout_width="match_parent"
@@ -71,7 +73,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/etNoteTitle" />
-
+//pada kode program textview ini dijelaskan bahwa memberikan ukuran pada setiap desain marginnya dengan ukuran yang baik agar bisa terkoneksi antar halaman,
+//dan memberikan perintah pada sebuah warna tulisan dan ukuran dan kemudian memberikan sebuah akses antar halaman activitynya.
     <LinearLayout
         android:id="@+id/l1"
         android:layout_width="match_parent"
@@ -81,7 +84,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvDateTime">
-
+//pada linearlayout ini memiliki sebuah desain dengan bentuk horizontal dan ukuran baground layoutnya.
 
         <View
             android:id="@+id/colorView"
@@ -89,7 +92,7 @@
             android:layout_height="match_parent"
             android:layout_marginStart="@dimen/_5sdp"
             android:background="@color/ColorBlue" />
-
+//pada kode program view ini memberikan sebuah warna baground dengan warna biru dan juga ukuran dari setiap layoutnya yang mana memiliki fungsi juga sebagai akses.
         <EditText
             android:id="@+id/etNoteSubTitle"
             android:layout_width="match_parent"
@@ -105,7 +108,7 @@
             android:textColorHint="@color/ColorGray"
             android:textSize="@dimen/_10ssp" />
     </LinearLayout>
-
+//pada sebuah kode program ini memiliki sebuah input data yang mana untuk menambahkan suatu aktifitas catatan dengan memberikannya warna putih pada edit text tersebut.
     <RelativeLayout
         android:id="@+id/layoutImage"
         android:layout_width="match_parent"
@@ -113,7 +116,7 @@
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@id/l1">
 
-
+//pada relativ layout ini memberikan suatu akses untuk menambahkan gambar.
 
         <ImageView
             android:id="@+id/imgNote"
@@ -134,7 +137,8 @@
             android:visibility="gone"
             android:layout_alignParentTop="true"
             android:src="@drawable/ic_delete" />
-
+//pada image view ini merupakan kode program yang mana hasilnya akan menampilkan suatu program dengan warna dan juga ukuran layout yang telah ditentukan
+//yang mana juga akan bisa terkoneksi untuk memberikan sebuah akses kedalam relativlayout.
 
     </RelativeLayout>
 
@@ -178,7 +182,8 @@
             android:src="@drawable/ic_baseline_cancel_24" />
     </LinearLayout>
 
-
+//pada linearlayout ini yang sama memiliki sebuah fungsi didalamnya ada image view agar bisa saling terhubung dengan desain yang telah tertulis
+//dan terstuktur dengan masing masing memiliki sebuah antribut dan nilai warna, ukuran dan imagenyaa sendiri.
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -211,7 +216,8 @@
                 android:layout_marginStart="@dimen/_5sdp"
                 android:textColor="@color/ColorWhite"
                 android:id="@+id/btnOk"/>
-
+//pada fungsi ini merupakan sebuah fungsi membuat suatu tombol agar bisa terkoneksi kedalam halaman activty berikutnya dengan memberikan sebuah desan,
+//dengan gambar, warna dan ukuran teks tersebut yang nntinya memberikan akses untuk menyambungkan.
 
         </LinearLayout>
     </LinearLayout>
@@ -235,7 +241,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/layoutWebUrl" />
-
+//memberikan sebuah ukuran dan gambar
     <EditText
         android:id="@+id/etNoteDesc"
         android:layout_width="match_parent"
@@ -256,7 +262,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvWebLink"
         app:layout_constraintVertical_bias="0.0" />
-
+//pada kode program ini memiliki sebuah fungsi untuk menambahkan dan juga megedit suatu data yang ada didalam desai  tersebut dan juga memberikan desain baground
+//dan ukurannya pada setiap fungsinya.
     <FrameLayout
         android:id="@+id/frameLayout"
         android:layout_width="match_parent"
@@ -272,6 +279,6 @@
             android:layout_gravity="center"
             android:src="@drawable/img_bar" />
     </FrameLayout>
-
+//pada kode program ini memberikan sebuah akses untuk menambahkan dan mengakses sebuah gambar
 
 </androidx.constraintlayout.widget.ConstraintLayout>
