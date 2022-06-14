@@ -430,7 +430,8 @@ class CreateNoteFragment : BaseFragment(),EasyPermissions.PermissionCallbacks,Ea
         }
     }
 
-
+//pada sebuah kode program tersebut memberikan sebuah akses pada tampilan ui dengan warna dan juga gambar yang dijelaskan dengan menerikan sebuah nilai yang benar
+//kemudian akan terkoneksi dengan benar kesebuah lokal penyimpanan
 
     override fun onRequestPermissionsResult(
         requestCode: Int,
