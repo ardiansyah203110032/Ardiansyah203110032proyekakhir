@@ -39,6 +39,8 @@ import pub.devrel.easypermissions.EasyPermissions
 import java.text.SimpleDateFormat
 import java.util.*
 import java.util.regex.Pattern
+//pada sebuah kode program tersebut merupakan sebuah kode program yang menjelaskan hubungan turunan yang bernilai agar saling terkoneksi kedalam sebuah antar muka
+//halaman, ada berbagi koneksi pada kode program tersebut yang kemudian akan ditampilkan.
 
 class CreateNoteFragment : BaseFragment(),EasyPermissions.PermissionCallbacks,EasyPermissions.RationaleCallbacks{
 
@@ -49,6 +51,7 @@ class CreateNoteFragment : BaseFragment(),EasyPermissions.PermissionCallbacks,Ea
     private var selectedImagePath = ""
     private var webLink = ""
     private var noteId = -1
+//pada kode program inilah menunjukkan sebuah kode program yang akan memberikan sebuah tampilan kedalam bentuk desain dengan memberikan sebuah warna.
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -66,6 +69,7 @@ class CreateNoteFragment : BaseFragment(),EasyPermissions.PermissionCallbacks,Ea
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_create_note, container, false)
     }
+//pada kode program tersebut memberiakan sebuah nilai yang akan menghubungkan sebuah antar koneksi pada sebuah halaman yang akan ditampilkan dicompile nantinya.
 
     companion object {
         @JvmStatic
@@ -75,6 +79,7 @@ class CreateNoteFragment : BaseFragment(),EasyPermissions.PermissionCallbacks,Ea
                 }
             }
     }
+//pada kode program tersebut menjelaskan bahwasannya akan membuat suatu bentuk catatan yang akan ditampilkan apbila bernilai benar.
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -114,6 +119,7 @@ class CreateNoteFragment : BaseFragment(),EasyPermissions.PermissionCallbacks,Ea
                 }
             }
         }
+//pada sebuah kode program diatas menampilkan sebuah koneksi yang memberikan suatu tampilan dengan memberikan sebuah warna dan gambar.
         LocalBroadcastManager.getInstance(requireContext()).registerReceiver(
             BroadcastReceiver, IntentFilter("bottom_sheet_action")
         )
@@ -143,6 +149,7 @@ class CreateNoteFragment : BaseFragment(),EasyPermissions.PermissionCallbacks,Ea
             var noteBottomSheetFragment = NoteBottomSheetFragment.newInstance(noteId)
             noteBottomSheetFragment.show(requireActivity().supportFragmentManager,"Note Bottom Sheet Fragment")
         }
+ //pada sebuah kode tersebut akan memberkan sebuah nilai yang terhubung ke sebuah antar muka pada setiap kode program.
 
         imgDelete.setOnClickListener {
             selectedImagePath = ""
@@ -208,6 +215,8 @@ class CreateNoteFragment : BaseFragment(),EasyPermissions.PermissionCallbacks,Ea
             }
         }
     }
+//pada kode program tersebut menggunkan database dan menyimpnannya dan menjelaskan bahwasannya untuk menginput dan menyimpan suatu data yang akan ditampilkan yang
+//akan memberikan sebuah warna yang akan ditampilkan.
     private fun saveNote(){
 
         if (etNoteTitle.text.isNullOrEmpty()){
@@ -246,7 +255,10 @@ class CreateNoteFragment : BaseFragment(),EasyPermissions.PermissionCallbacks,Ea
             }
         }
         }
-
+//pada sebuah kode program tersebut menjelaskan sebuah nilai dari kode program yang membuat value antarmuka dengan penyimpanannya yang
+//ekspresi bertipe date-time,yang menentukan dua argumen opsional, dateTimeFormat dan timeZone, sebagai tambahan.
+//Fungsi akan mengembalikan ekspresi DATE-TIME dalam dateTimeFormat yang ditentukan, diubah menjadi zona waktu yang ditentukan.
+//Jika ekspresi bertipe nomor (milidetik), menentukan dua argumen opsional.
     }
 
     private fun deleteNote(){
@@ -270,7 +282,7 @@ class CreateNoteFragment : BaseFragment(),EasyPermissions.PermissionCallbacks,Ea
             Toast.makeText(requireContext(),"Url is not valid",Toast.LENGTH_SHORT).show()
         }
     }
-
+//pada kode tersebut menjelaskan sebuah kode yang dibangun untuk memuat sebuah pencarian dengan database dan juga halaman yang dibuat.
 
     private val BroadcastReceiver : BroadcastReceiver = object :BroadcastReceiver(){
         override fun onReceive(p0: Context?, p1: Intent?) {
@@ -332,7 +344,7 @@ class CreateNoteFragment : BaseFragment(),EasyPermissions.PermissionCallbacks,Ea
                     deleteNote()
                 }
 
-
+//pada kode program tersebut menjelaskan bahwasannya akan memberikan sebuah warna pada desain halaman layout yang telah digambarkan.
                 else -> {
                     layoutImage.visibility = View.GONE
                     imgNote.visibility = View.GONE
